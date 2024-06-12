@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  all: unset;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding-inline: 8px;
+  padding-block: 4px;
+  cursor: pointer;
+
+}
+
+.btn-primary {
+  background-color: salmon;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: aqua;
+  color: black;
+}
