@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { CounterDisplay } from "./counter-display";
 
 function App() {
   // Setup Part of the component
@@ -17,7 +18,7 @@ function App() {
   return (
     <div>
       <button onClick={decrement}>-</button>
-      <span style={{ paddingInline: "10px" }}>{state}</span>
+      <CounterDisplay count={state} />
       <button onClick={increment}>+</button>
     </div>
   );
